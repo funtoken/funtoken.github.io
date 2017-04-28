@@ -1,10 +1,15 @@
-## Welcome to I Love You Coin
-
-- Decentralised LOVE!
-- Send LOVE to your loved ones!
-- No ICO, no Pre-Sale, no crowdfunding!
+## Send LOVE to your loved ones!
 
 First "Proof Of Love" (PoL) cryptocurrency in the world!
+
+- I LOVE YOU is Decentralised LOVE
+- Send LOVE to your loved ones. They can hold them or sell them, that's proof of love!
+- No ICO, no Pre-Sale, no crowdfunding
+- Just 21 million with a single decimal fraction
+
+I LOVE YOU coin is product and currency at the same time
+
+More features coming soon...
 
 ### Contract Address: 0x2129687ad072c0d040d2d5FF8331B036c8da8bdB
 
