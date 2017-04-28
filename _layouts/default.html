@@ -54,6 +54,12 @@
 
       <section id="main_content">
         {{ content }}
+        
+      <div id="token-history-grouped-widget"></div>
+      <script type="text/javascript">
+        if(typeof(eWgs) === 'undefined'){ document.write('<scr' + 'ipt src="/api/widget.js?' + new Date().getTime().toString().substr(0,7) + '" async></scr' + 'ipt>'); var eWgs = []; }
+        eWgs.push(function(){ethplorerWidget.init('#token-history-grouped-widget', 'tokenHistoryGrouped', {"theme":"dark","address":"0x2129687ad072c0d040d2d5ff8331b036c8da8bdb","options":{"title":"I Love You token pulse","vAxis":{"title":"Token operations"},"hAxis":{"title":"30 days token operations chart"}}});});
+      </script>
       </section>
 
       <footer>
