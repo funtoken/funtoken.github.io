@@ -4,7 +4,7 @@ First "Proof Of Love" (PoL) cryptocurrency in the world!
 
 - I LOVE YOU is Decentralised LOVE
 - Send LOVE to your loved ones. They can hold them or sell them, that's proof of love!
-- No ICO, no Pre-Sale, no crowdfunding
+- No ICO, no Pre-Sale, no Crowdfunding
 - Just 21 million with a single decimal fraction
 
 I LOVE YOU coin is product and currency at the same time
