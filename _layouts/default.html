@@ -57,10 +57,30 @@
       </section>
       
       <section id="widget">
-        <div id="token-history-grouped-widget"></div>
+        <div id="token-history-grouped-1"></div>
         <script type="text/javascript">
-          if(typeof(eWgs) === 'undefined'){ document.write('<scr' + 'ipt src="https://ethplorer.io/api/widget.js?' + new Date().getTime().toString().substr(0,7) + '" async></scr' + 'ipt>'); var eWgs = []; }
-          eWgs.push(function(){ethplorerWidget.init('#token-history-grouped-widget', 'tokenHistoryGrouped', {"theme":"dark","address":"0x2129687ad072c0d040d2d5ff8331b036c8da8bdb","options":{"title":"I Love You token pulse","vAxis":{"title":"Token operations"},"hAxis":{"title":"30 days token operations chart"}}});});
+        if (typeof (eWgs) === 'undefined') {
+            document.write('<scr' + 'ipt src="https://api.ethplorer.io/widget.js?' + new Date().getTime().toString().substr(0, 7) + '" async></scr' + 'ipt>');
+            var eWgs = [];
+        }
+        eWgs.push(function () {
+            ethplorerWidget.init(
+                '#token-history-grouped-1', // Placeholder element
+                'tokenHistoryGrouped', // Widget type
+                {
+                    // token address
+                    'address': '0x2129687ad072c0d040d2d5ff8331b036c8da8bdb',
+                    options: {
+                        'title': 'I LOVE YOU Token Pulse',
+                        'pointSize': 5,
+                        'vAxis': {
+                            'title': 'Token operations',
+                        }
+                    }
+                }
+
+            );
+        });
         </script>
       </section>
 
